@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma;
+    text-align: center;
+}
+
+#root{
+    width: 90%;
+    margin: 10px auto;
+    padding: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.holder{
+    width: 30%;
+}
+.holder img{
+    width: 100%;
+    height: 100%;
+}
+
+.info{
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    left: 25%;
+    background: rgb(3, 99, 3);
+    border: 1px solid black;
+    top: 25%;
+    font-size: 1.5em;
+    padding: 10px;
+    color: white
+}
+
+.info button{
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+}
+
+#username{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.error-box{
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    left: 25%;
+    background: rgb(173, 9, 9);
+    border: 1px solid black;
+    top: 25%;
+    font-size: 1.5em;
+    padding: 10px;
+    color: white
+}
+
+.error-box button{
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+}
+
+#nemapari{
+    width: 70%;
+    height: 70vh;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 999;
+    display: none;
+}
+#nemapari img{
+    width: 60%
+}
